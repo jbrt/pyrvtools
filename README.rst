@@ -94,22 +94,60 @@ you're looking for a metric):
 Properties of objects
 ---------------------
 
-***Cluster*** - datacenter - hosts
+**Cluster** 
+- datacenter 
+- hosts
 
-***DataCenter*** - clusters - hosts
+**DataCenter** 
+- clusters 
+- hosts
 
-***DataStore*** - capacity\_mb - free\_mb - free\_percent - hosts -
-inuse\_mb - naa - number\_of\_hosts - number\_of\_vms - provisioned\_mb
-- sioc\_enable - type - version
+**DataStore** 
+- capacity_mb 
+- free_mb 
+- free_percent 
+- hosts 
+- inuse_mb 
+- naa 
+- number_of_hosts 
+- number_of_vms 
+- provisioned_mb
+- sioc_enable 
+- type 
+- version
 
-***Host*** - boot\_time - cluster - cpu\_usage\_percent - datacenter -
-esx\_version - hba - memory\_mb - memory\_usage\_percent - model -
-number\_of\_cores - number\_of\_cpu - number\_of\_vcpu - number\_of\_vm
+**Host** 
+- boot_time 
+- cluster 
+- cpu_usage_percent 
+- datacenter 
+- esx_version 
+- hba 
+- memory_mb 
+- memory_usage_percent 
+- model 
+- number_of_cores 
+- number_of_cpu 
+- number_of_vcpu 
+- number_of_vm
 - vm
 
-***VirtualMachine*** - cluster - cpu - datacenter - datastore - host -
-inuse\_mb - memory - os - power\_on - power\_state - provisioned\_mb -
-unshared\_mb - vmdk - vnetwork - vpartition
+**VirtualMachine** 
+- cluster 
+- cpu 
+- datacenter 
+- datastore 
+- host 
+- inuse_mb 
+- memory 
+- os 
+- power_on 
+- power_state 
+- provisioned_mb 
+- unshared_mb 
+- vmdk 
+- vnetwork 
+- vpartition
 
 License
 -------
