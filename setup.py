@@ -1,9 +1,10 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='pyrvtools',
-    version='0.5',
+    version='1.0.0',
     packages=['pyrvtools'],
+    install_requires=['xlrd'],
     url='https://github.com/jbrt/pyrvtools',
     license='GPL',
     author='Julien B.',
